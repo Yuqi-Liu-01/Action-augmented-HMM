@@ -1,0 +1,31 @@
+{
+  "saved_at": "2026-01-23 21:19:30",
+  "pi_hash": "6abcbecb0a",
+  "trans_shape": [
+    3,
+    25,
+    25
+  ],
+  "emit_shape": [
+    25,
+    25
+  ],
+  "policy_shape": [
+    25,
+    3
+  ],
+  "animal": "G506",
+  "exp_date": "2025-11-04",
+  "seed": 47,
+  "validation_seed": 2645290876,
+  "n_states": 25,
+  "pde": 0.9500588850486338,
+  "nll_model": 126.24333318838234,
+  "nll_null": 2527.8437077610492,
+  "neural_similarity": NaN,
+  "matrix_metric": "corr",
+  "compare_metric": "pearson",
+  "trace_first": -2239.0530527181436,
+  "trace_last": -373.07744569071133,
+  "animal_accuracy": 0.8269230769230769
+}
