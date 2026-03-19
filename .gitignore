@@ -12,4 +12,3 @@ demo_outputs/
 # Large local-only data products
 data/G*_all_session_processed_data.pkl
 data/G*_all_sessions_neural_pv_representation.pkl
-data/sim_df_25_rand.pkl
