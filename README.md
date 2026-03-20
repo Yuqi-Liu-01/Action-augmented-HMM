@@ -47,22 +47,53 @@ Model summary logs currently live under `models/`, for example:
 - `models/25/model_log.pkl`
 - `models/25/new_emit_model_log.pkl`
 
-## Installation
+## Environment Setup
 
-### pip
+### Using pip (venv)
 
+Create a virtual environment (replace `your_env_name` with any name you like):
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+python -m venv your_env_name
+```
+
+Activate the environment:
+
+- **macOS / Linux**
+  ```bash
+  source your_env_name/bin/activate
+  ```
+
+- **Windows (Command Prompt)**
+  ```bat
+  your_env_name\Scripts\activate
+  ```
+
+- **Windows (PowerShell)**
+  ```powershell
+  your_env_name\Scripts\Activate.ps1
+  ```
+
+Install dependencies:
+```bash
 pip install -r requirements.txt
 ```
 
-### conda
+---
 
+### Using conda
+
+Create the environment:
 ```bash
 conda env create -f environment.yml
-conda activate action-augmented-hmm
 ```
+
+Activate the environment:
+```bash
+conda activate your_environment
+```
+
+> Replace `your_env_name` / `your_environment` with any name you prefer.  
+> You can also edit the `name:` field inside `environment.yml`.
 
 Tested locally with Python 3.12 on macOS.
 
