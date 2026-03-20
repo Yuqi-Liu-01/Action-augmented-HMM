@@ -51,10 +51,17 @@ Model summary logs currently live under `models/`, for example:
 
 ### Using pip (venv)
 
-Create a virtual environment (replace `your_env_name` with any name you like):
-```bash
-python -m venv your_env_name
-```
+Create a virtual environment with Python 3.12:
+
+- **macOS / Linux**
+  ```bash
+  python3.12 -m venv your_env_name
+  ```
+
+- **Windows (Command Prompt / PowerShell)**
+  ```bash
+  py -3.12 -m venv your_env_name
+  ```
 
 Activate the environment:
 
@@ -70,7 +77,7 @@ Activate the environment:
 
 - **Windows (PowerShell)**
   ```powershell
-  your_env_name\Scripts\Activate.ps1
+  .\your_env_name\Scripts\Activate.ps1
   ```
 
 Install dependencies:
