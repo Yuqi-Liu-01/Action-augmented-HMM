@@ -51,7 +51,7 @@ Model summary logs currently live under `models/`, for example:
 
 ### Using pip (venv)
 
-Create a virtual environment with Python 3.12:
+Create a virtual environment with Python 3.12 or 3.11:
 
 - **macOS / Linux**
   ```bash
@@ -106,7 +106,7 @@ Tested locally with Python 3.12 on macOS.
 
 ## Demo
 
-Run:
+Run (expected runtime within 3 mins):
 
 ```bash
 python run_demo.py
