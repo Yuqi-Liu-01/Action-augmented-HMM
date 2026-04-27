@@ -155,7 +155,3 @@ These notebooks are set up to display figures inline rather than saving them aut
 
 - The figure and analysis notebooks use `pd.read_pickle(...)` directly. The saved pickle files expected by this public repository should be Python 3.12-compatible.
 - Path handling for saved models is centralized in `ahmm_eval.py`, so stale `save_path` / `model_path` entries from older logs are repaired automatically against the current `models/` layout when possible.
-
-## License
-
-Released under the MIT License. See `LICENSE`.
